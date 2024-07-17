@@ -1,10 +1,11 @@
 import Header from './components/Header.jsx';
-
+import { Outlet } from 'react-router-dom';
 const App = ()=> {
   return (
     <>
       <Header/>
-        <h1> MERN Auth</h1>
+      <Outlet/>
+        {/* <h1> MERN Auth</h1> */}
     </>
   )
 }
